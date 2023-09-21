@@ -35,7 +35,7 @@ char **parse_user_input(char *str_input, char *delimiter)
 		args[f] = duplicate_string(token);
 	}
 	/* set the last element of array of arguments to NULL */
-	args[fi] = NULL;
+	args[f] = NULL;
 
 	free(str_copy);
 	return (args);

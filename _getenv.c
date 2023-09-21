@@ -12,7 +12,7 @@ char *_getenv(char *name)
 	int j;
 
 	for (j = 0; __environ[j] != NULL; j++)
-		if (_strncmp(__environ[i], name, _strlen(name)) == 0)
+		if (_strncmp(__environ[j], name, _strlen(name)) == 0)
 			return (&__environ[j][_strlen(name) + 1]);
 
 	return (NULL);
