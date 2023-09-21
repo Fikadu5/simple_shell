@@ -53,6 +53,7 @@ char *_strdup(const char *s1)
 int _strncmp(const char *s1, const char *s2, size_t n)
 {
 	size_t r;
+
 	r = 0;
 
 	while (r < n && s1 && s2 && s1[r] && s2[r] &&

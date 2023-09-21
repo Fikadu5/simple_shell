@@ -57,7 +57,8 @@ int _history(void)
 	{
 		str_num = num_to_str(count++);
 		len = _puts(str_num);
-		for (i = len; i < 7; i++) 
+
+		for (i = len; i < 7; i++)
 			_puts(" ");
 		_puts(curr->str);
 		_puts("\n");

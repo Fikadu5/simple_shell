@@ -11,6 +11,7 @@
 char *_strchr(const char *s, int c)
 {
 	size_t r;
+
 	r = 0;
 
 	while (s[r])

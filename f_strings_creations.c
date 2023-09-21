@@ -37,6 +37,7 @@ char *f_strsub(char const *s, unsigned int start, size_t len)
 {
 	size_t	j;
 	char	*us;
+
 	us = (char *)malloc(len + 1);
 
 	if (s == NULL || us == NULL)
