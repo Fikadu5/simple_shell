@@ -9,7 +9,9 @@ void write_history(void)
 	list_t *curr;
 	int fd;
 	char *home;
+
 	home = _getenv("HOME");
+
 	if (home == NULL)
 		home = "/";
 

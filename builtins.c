@@ -89,7 +89,7 @@ int _unsetenv(char *name)
 
 		set_process_exit_code(0);
 		return (1);
-	}	
+	}
 	set_process_exit_code(0); /* Indicates that no error ocurred */
 
 	return (1);
