@@ -11,6 +11,7 @@
 char *_strcpy(char *dest, char *src)
 {
 	char *mem_address;
+
 	mem_address = dest;
 
 	while (*src != '\0')
